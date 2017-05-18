@@ -1,0 +1,22 @@
+{
+  "name": "es6_playground",
+  "version": "1.0.0",
+  "description": "An environment set up to aid in testing and learning ES6",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dev_server.js",
+    "bundle": "webpack --colors --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Bowler",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "express": "^4.15.2",
+    "webpack": "^2.4.1",
+    "webpack-dev-middleware": "^1.10.2"
+  },
+  "dependencies": {}
+}
